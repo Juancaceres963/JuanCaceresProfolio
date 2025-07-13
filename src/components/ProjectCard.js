@@ -18,7 +18,7 @@
 import { Col } from "react-bootstrap";
 import { Link } from "react-router-dom"; // Importar Link para la navegación
 
-export const ProjectCard = ({ id, title, description, imgUrl }) => {
+export const ProjectCard = ({ id, title, technologies, imgUrl }) => {
   return (
     <Col sm={6} md={4}>
       <Link to={`/project/${id}`} style={{ textDecoration: "none", color: "inherit" }}>
@@ -26,7 +26,7 @@ export const ProjectCard = ({ id, title, description, imgUrl }) => {
           <img src={imgUrl} alt={title} />
           <div className="proj-txtx">
             <h4>{title}</h4>
-            <span>{description}</span>
+            <span>{technologies}</span>
           </div>
         </div>
       </Link>
