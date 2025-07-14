@@ -13,6 +13,7 @@ export const Navigation = () => {
   const [scrolled, setScrolled] = useState(false);
   const navigate = useNavigate();
   const location = useLocation();
+  const [expanded, setExpanded] = useState(false);
 
   useEffect(() => {
     const onScroll = () => {
@@ -23,33 +24,44 @@ export const Navigation = () => {
   }, []);
 
   const handleNavigation = (section) => {
-    setActiveLink(section);
+  setActiveLink(section);
 
-    if (location.pathname !== "/") {
-      navigate(`/#${section}`);
-    } else {
-      document.getElementById(section)?.scrollIntoView({ behavior: "smooth" });
-      window.history.pushState(null, "", `/#${section}`); // <- Esto actualiza la URL sin recargar
+  if (location.pathname !== "/") {
+    navigate(`/#${section}`);
+    setTimeout(() => setExpanded(false), 100); // Espera un toque
+  } else {
+    const sectionElement = document.getElementById(section);
+    if (sectionElement) {
+      sectionElement.scrollIntoView({ behavior: "smooth" });
     }
-  };
+    window.history.pushState(null, "", `/#${section}`);
+    setTimeout(() => setExpanded(false), 300); // Espera después del scroll
+  }
+};
 
   return (
-    <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
+    <Navbar
+        expand="lg"
+        expanded={expanded}
+        onToggle={(isExpanded) => setExpanded(isExpanded)}
+        className={scrolled || expanded ? "scrolled" : ""}
+      >
       <Container>
         <Navbar.Brand
           onClick={() => {
-            if (location.pathname !== "/") {
-              navigate("/");
-            } else {
-              window.scrollTo({ top: 0, behavior: "smooth" });
-            }
-          }}
+        setExpanded(false);
+        if (location.pathname !== "/") {
+          navigate("/");
+        } else {
+          window.scrollTo({ top: 0, behavior: "smooth" });
+        }
+      }}
         >
           <img style={{ width: 160 }} src={logo} alt="logo" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto" style={{ marginLeft: 60 }}>
+          <Nav className="me-auto">
             <Nav.Link
               onClick={() => handleNavigation("skills")}
               className={

@@ -97,8 +97,8 @@ nav.navbar {
   transition: 0.32s ease-in-out;
 }
 nav.navbar.scrolled {
-  padding: 0px 0;
   background-color: #080808d8;
+  padding: 8px 0;
 }
 nav.navbar a.navbar-brand {
   width: 9%;
@@ -107,10 +107,11 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
   color: #fff;
   letter-spacing: 0.8px;
-  padding: 0 25px;
+  padding: 10px 25px;
   font-size: 19px;
   opacity: 0.75;
 }
+
 nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
 nav.navbar .navbar-nav a.nav-link.navbar-link.active {
   opacity: 1;
@@ -118,9 +119,33 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
 span.navbar-text {
   display: flex;
   align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 992px) {
+  span.navbar-text {
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  span.navbar-text {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  button.vvd {
+    margin: 15px 0 0 0 !important;
+  }
+}
+
+button.vvd {
+  width: 170px;
 }
 .social-icon {
-  display: inline-block;
+  display: inline-flex;
+  justify-content: center;
   min-width: 195px;
 }
 .social-icon a {
@@ -134,6 +159,9 @@ span.navbar-text {
   justify-content: center;
   line-height: 1;
   border: 1px solid rgba(255, 255, 255, 0.5);
+}
+.social-icon a:last-child {
+  margin-right: 0px;
 }
 .social-icon a::before {
   content: "";
@@ -161,7 +189,7 @@ span.navbar-text {
   font-weight: 700;
   color: #fff;
   border: 1px solid #fff;
-  padding: 18px 34px;
+  padding: 18px 24px;
   font-size: 18px;
   margin-left: 18px;
   position: relative;
@@ -278,11 +306,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 @media only screen and (max-width: 767px) {
-
   .video-background {
     height: 220vh;
   }
-  
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .video-background video {
+    top: 30%;
+  }
 }
 
 /************ Banner Css ************/
@@ -308,7 +340,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   );
   border: 1px solid rgba(255, 255, 255, 0.5);
   font-size: 20px;
-  margin-bottom: 16px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   display: inline-block;
 }
 .container_banner_h1 {
@@ -325,6 +358,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin: auto;
   display: flex;
   flex-direction: column;
+  margin: 30px 0;
 }
 .banner p {
   color: #b8b8b8;
@@ -332,6 +366,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.8px;
   line-height: 1.5em;
   width: 100%;
+  padding-top: 18px;
 }
 .banner button {
   color: #fff;
@@ -341,6 +376,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.8px;
   display: flex;
   align-items: center;
+  text-align: center;
 }
 .banner button svg {
   font-size: 25px;
@@ -351,9 +387,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner button:hover svg {
   margin-left: 25px;
 }
-/* .banner-img {
-    animation: updown 8s linear infinite; 
-} */
+
 @keyframes updown {
   0% {
     transform: translateY(-15px);
@@ -370,10 +404,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 @media only screen and (max-width: 1200px) {
-
   .banner {
-  padding: 260px 0 80px 0;
-}
+    padding: 260px 0 80px 0;
+  }
 
   .container_banner_h1 {
     height: 23vh;
@@ -384,26 +417,49 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
 
   .banner p {
-  padding-bottom: 20px;
+    padding-bottom: 20px;
   }
 
   .banner .banner-col-text button {
     margin: 30px auto;
-    font-size: 25px;
   }
 }
 
-@media only screen and (max-width: 900px) {
-
+@media only screen and (max-width: 993px) {
   .banner {
-  padding: 260px 0 60px 0;
-}
-
-
+    padding: 260px 0 60px 0;
+  }
+  .banner .tagline {
+    margin-top: 0;
+  }
   .banner h1 {
     font-size: 45px;
   }
+}
 
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .banner {
+    padding: 260px 0 30px 0;
+  }
+  .banner-col-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* centra horizontalmente */
+    text-align: center;
+    gap: 20px;
+  }
+
+  .banner-col-text p {
+    font-size: 20px;
+    width: 90%;
+    margin: 20px auto 10px;
+  }
+
+  .banner-col-text button {
+    margin-left: 0 !important;
+    width: auto;
+    margin-top: 15px;
+  }
 }
 
 /************ Skills Css ************/
@@ -472,8 +528,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 @media only screen and (max-width: 600px) {
   .skill-bx {
-    padding: 30px ;
-    
+    padding: 30px;
   }
 }
 
@@ -481,18 +536,34 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project {
   padding: 60px 0;
   position: relative;
-  height:auto;
+  height: auto;
   margin: 0;
   --x: calc(var(--posX, 0) * 0.3px);
   --y: calc(var(--posY, 0) * 0.3px);
-  background-image: 
-    linear-gradient(115deg, rgb(35, 3, 53), rgb(59, 7, 104)), 
-    radial-gradient( 90% 100% at calc( 50% + var(--x)) calc( 0% + var(--y)), rgb(200 200 200), rgb(42, 8, 96)), 
-    radial-gradient(100% 100% at calc( 80% - var(--x)) calc( 0% - var(--y)), rgb(97, 2, 15), rgb(0, 0, 0)), 
-    radial-gradient(150% 210% at calc(100% + var(--x)) calc( 0% + var(--y)), rgb(45, 3, 109), rgb(246, 255, 0)), 
-    radial-gradient(100% 100% at calc(100% - var(--x)) calc(30% - var(--y)), rgb(241, 234, 28), rgb(14, 0, 171)), 
+  background-image: linear-gradient(115deg, rgb(35, 3, 53), rgb(59, 7, 104)),
+    radial-gradient(
+      90% 100% at calc(50% + var(--x)) calc(0% + var(--y)),
+      rgb(200 200 200),
+      rgb(42, 8, 96)
+    ),
+    radial-gradient(
+      100% 100% at calc(80% - var(--x)) calc(0% - var(--y)),
+      rgb(97, 2, 15),
+      rgb(0, 0, 0)
+    ),
+    radial-gradient(
+      150% 210% at calc(100% + var(--x)) calc(0% + var(--y)),
+      rgb(45, 3, 109),
+      rgb(246, 255, 0)
+    ),
+    radial-gradient(
+      100% 100% at calc(100% - var(--x)) calc(30% - var(--y)),
+      rgb(241, 234, 28),
+      rgb(14, 0, 171)
+    ),
     linear-gradient(60deg, rgb(145, 143, 148), rgb(177, 173, 190));
-  background-blend-mode: overlay, overlay, difference, difference, difference, normal;
+  background-blend-mode: overlay, overlay, difference, difference, difference,
+    normal;
 }
 .project h2 {
   font-size: 45px;
@@ -614,7 +685,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-size: 15px;
   letter-spacing: 0.8px;
   color: #fff;
-  
 }
 .background-image-right {
   top: 20%;
@@ -638,8 +708,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: flex;
   flex-direction: column;
   justify-content: start;
-  align-items:start;
-  
+  align-items: start;
 }
 
 /*Popup*/
@@ -665,7 +734,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   min-height: 300px; /* Ajusta la altura aquí */
   text-align: center;
   width: 600px !important;
-  background: linear-gradient(90.21deg, #aa367c -5.91%, #4a2fbd 111.58%) !important;
+  background: linear-gradient(
+    90.21deg,
+    #aa367c -5.91%,
+    #4a2fbd 111.58%
+  ) !important;
   border-radius: 30px !important;
   border: 3px solid rgb(255, 255, 255) !important;
 }
@@ -708,7 +781,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: #555;
 }
 
-/******* Contact ******/ 
+/******* Contact ******/
 .contact {
   padding: 18px;
 }
