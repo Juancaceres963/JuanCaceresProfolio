@@ -802,6 +802,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 500;
   width: 100%;
   display: flex;
+  align-items: center;
+  justify-content: center;
   padding-bottom: 50px;
 }
 
@@ -811,7 +813,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .logo-footer {
-  margin-top: 60px !important;
+  margin-top: 58px;
   scale: 0.8;
   object-fit: contain;
 }
@@ -828,6 +830,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 10px;
   margin: 0;
   background-color: #492fbd81;
+}
+
+@media only screen and (max-width: 992px) {
+  .footer-container {
+    flex-direction: column;
+  }
+  img.logo-footer{
+    margin-top: 0;
+  }
 }
 /********************** React App ****************/
 .App {

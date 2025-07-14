@@ -33,15 +33,14 @@ export const Footer = () => {
             </p>
           </Col>
         </Row>
-        <Row>
+        <Col>
           <Form />
-        </Row>
-
-        <Row>
+        </Col>
+        <Col>
           <img className="logo-footer" src={logo} />
-        </Row>
+        </Col>
       </Container>
-      <p className="copy">Copyright 2022. All Rights Reserved</p>
+      <p className="copy">Copyright 2025. All Rights Reserved</p>
     </footer>
   );
 };
