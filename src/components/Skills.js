@@ -48,7 +48,7 @@ export const Skills = () => {
                 <div className="item">
                   <CircularProgress
                     className="circular-progress"
-                    percentage={80}
+                    percentage={85}
                   />
                   <h5>JavaScript & React.js</h5>
                 </div>
@@ -62,23 +62,30 @@ export const Skills = () => {
                 <div className="item">
                   <CircularProgress
                     className="circular-progress"
-                    percentage={60}
+                    percentage={75}
                   />
-                  <h5>SQL Server & Entity Framework</h5>
+                  <h5>SQL Server</h5>
                 </div>
                 <div className="item">
                   <CircularProgress
                     className="circular-progress"
-                    percentage={65}
+                    percentage={70}
                   />
                   <h5>Performance Optimization</h5>
                 </div>
                 <div className="item">
                   <CircularProgress
                     className="circular-progress"
-                    percentage={80}
+                    percentage={70}
                   />
                   <h5>Project Management & Teamwork</h5>
+                </div>
+                <div className="item">
+                  <CircularProgress
+                    className="circular-progress"
+                    percentage={85}
+                  />
+                  <h5>Product and business-oriented</h5>
                 </div>
                 <div className="item">
                   <CircularProgress
@@ -86,6 +93,13 @@ export const Skills = () => {
                     percentage={55}
                   />
                   <h5>Digital Marketing and SEO</h5>
+                </div>
+                <div className="item">
+                  <CircularProgress
+                    className="circular-progress"
+                    percentage={90}
+                  />
+                  <h5>Creativity and Design</h5>
                 </div>
                 <div className="item">
                   <CircularProgress
@@ -104,16 +118,23 @@ export const Skills = () => {
                 <div className="item">
                   <CircularProgress
                     className="circular-progress"
-                    percentage={80}
+                    percentage={85}
                   />
                   <h5>Effective Communication</h5>
                 </div>
                 <div className="item">
                   <CircularProgress
                     className="circular-progress"
-                    percentage={85}
+                    percentage={95}
                   />
                   <h5>Self-discipline & time management</h5>
+                </div>
+                <div className="item">
+                  <CircularProgress
+                    className="circular-progress"
+                    percentage={100}
+                  />
+                  <h5>Attitude and Passion 😉</h5>
                 </div>
               </Carousel>
             </div>
