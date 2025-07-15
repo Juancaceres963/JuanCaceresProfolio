@@ -7,7 +7,11 @@ import { useIsTablet } from "../hooks/useIsTablet";
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
-  const toRotate = ["Web Developer", "Web Designer", "UI/UX Designer"];
+  const toRotate = [
+    "Full Stack Developer",
+    "Software Developer",
+    "Digital Product Builder",
+  ];
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const period = 2000;
@@ -52,8 +56,8 @@ export const Banner = () => {
           {/* Acá ponés la versión "tablet": dos Rows, imagen + texto arriba, p + botón abajo */}
           <Row className="align-items-center">
             {
-              <section className="banner" id="home" style={{ paddingTop: 100}}>
-                <Container style={{ marginTop: -130, }}>
+              <section className="banner" id="home" style={{ paddingTop: 100 }}>
+                <Container style={{ marginTop: -130 }}>
                   <Row className="align-items-center">
                     <Col xs={12} md={6} xl={5}>
                       <img
@@ -68,7 +72,7 @@ export const Banner = () => {
                       </span>
                       <div>
                         <h1 className="container_banner_h1">
-                          {`Hi I'm webdecoded`}
+                          {`Hi, I'm Juan Cácere`}
                           <br />
                           <span className="wrap">{text}</span>
                         </h1>
@@ -89,22 +93,24 @@ export const Banner = () => {
                         display: "flex",
                         flexDirection: "column",
                         alignItems: "center",
-                        gap: 20
+                        gap: 20,
                       }}
                     >
-                      <p className="banner-paragraph" 
-                      style={{
-                        padding : 0,
-                        margin: 0
-                      }}>
+                      <p
+                        className="banner-paragraph"
+                        style={{
+                          padding: 0,
+                          margin: 0,
+                        }}
+                      >
                         Building the future with well-designed, <br />
                         scalable, and maintainable software solutions.
                       </p>
                       <button
-                      style={{
-                        padding : 0,
-                        margin: 0
-                      }}
+                        style={{
+                          padding: 0,
+                          margin: 0,
+                        }}
                         onClick={() => {
                           const textarea = document.getElementById("message");
                           if (textarea) {
@@ -149,7 +155,7 @@ export const Banner = () => {
             </span>
             <div>
               <h1 className="container_banner_h1">
-                {`Hi I'm webdecoded`}
+                {`Hi, I'm Juan Cáceres`}
                 <br />
                 <span className="wrap">{text}</span>
               </h1>

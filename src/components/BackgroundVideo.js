@@ -22,22 +22,23 @@ const BackgroundVideo = () => {
   const videoRef = useRef(null);
 
   useEffect(() => {
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setIsVisible(true);
-          observer.disconnect(); // Deja de observar una vez que es visible
-        }
-      },
-      { threshold: 0.3 } // El video carga cuando el 30% es visible
-    );
+  const observer = new IntersectionObserver(
+    ([entry]) => {
+      if (entry.isIntersecting && videoRef.current) {
+        setIsVisible(true);
+        videoRef.current.play().catch((e) => console.log("Autoplay error:", e));
+        observer.disconnect();
+      }
+    },
+    { threshold: 0.1 }
+  );
 
-    if (videoRef.current) {
-      observer.observe(videoRef.current);
-    }
+  if (videoRef.current) {
+    observer.observe(videoRef.current);
+  }
 
-    return () => observer.disconnect();
-  }, []);
+  return () => observer.disconnect();
+}, []);
 
   return (
     <div className="video-background">
@@ -49,7 +50,7 @@ const BackgroundVideo = () => {
         playsInline 
         preload="none"
       >
-        {isVisible && <source src={bannerVideo} type="video/mp4" />}
+        <source src={bannerVideo} type="video/mp4" />
       </video>
     </div>
   );
