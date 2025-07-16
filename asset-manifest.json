@@ -1,9 +1,11 @@
 {
   "files": {
-    "main.css": "/JuanCaceresProfolio/static/css/main.3e8f06d5.css",
-    "main.js": "/JuanCaceresProfolio/static/js/main.7e255fea.js",
+    "main.css": "/JuanCaceresProfolio/static/css/main.b9c16463.css",
+    "main.js": "/JuanCaceresProfolio/static/js/main.20d55faf.js",
     "static/js/453.014ed64d.chunk.js": "/JuanCaceresProfolio/static/js/453.014ed64d.chunk.js",
     "static/media/banner_bg_opti2.mp4": "/JuanCaceresProfolio/static/media/banner_bg_opti2.796d4b36897ecc5ad667.mp4",
+    "static/media/AppSalesManagmentCarrousel.png": "/JuanCaceresProfolio/static/media/AppSalesManagmentCarrousel.554c91051f95dd7df30e.png",
+    "static/media/AppSalesManagmentPortada.png": "/JuanCaceresProfolio/static/media/AppSalesManagmentPortada.46f30590577de4851a18.png",
     "static/media/MotorcycleServicePortada.png": "/JuanCaceresProfolio/static/media/MotorcycleServicePortada.ae5e75e17e7de8a956aa.png",
     "static/media/color-sharp2.png": "/JuanCaceresProfolio/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
     "static/media/FotoJuanPortada.png": "/JuanCaceresProfolio/static/media/FotoJuanPortada.e5e65f52e78c2f65d91c.png",
@@ -19,12 +21,12 @@
     "static/media/nav-icon3.svg": "/JuanCaceresProfolio/static/media/nav-icon3.08b285abb8e118b52637efa5d65c5367.svg",
     "index.html": "/JuanCaceresProfolio/index.html",
     "static/media/nav-icon1.svg": "/JuanCaceresProfolio/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
-    "main.3e8f06d5.css.map": "/JuanCaceresProfolio/static/css/main.3e8f06d5.css.map",
-    "main.7e255fea.js.map": "/JuanCaceresProfolio/static/js/main.7e255fea.js.map",
+    "main.b9c16463.css.map": "/JuanCaceresProfolio/static/css/main.b9c16463.css.map",
+    "main.20d55faf.js.map": "/JuanCaceresProfolio/static/js/main.20d55faf.js.map",
     "453.014ed64d.chunk.js.map": "/JuanCaceresProfolio/static/js/453.014ed64d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e8f06d5.css",
-    "static/js/main.7e255fea.js"
+    "static/css/main.b9c16463.css",
+    "static/js/main.20d55faf.js"
   ]
 }
