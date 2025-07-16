@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
-import headderImg from "../assets/img/banner_marco3.png";
+import headderImg from "../assets/img/FotoJuanPortada.png";
 import { useIsTablet } from "../hooks/useIsTablet";
 
 export const Banner = () => {
