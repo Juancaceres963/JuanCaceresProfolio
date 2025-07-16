@@ -1,20 +1,16 @@
 {
   "files": {
-    "main.css": "/JuanCaceresProfolio/static/css/main.3d46dcae.css",
-    "main.js": "/JuanCaceresProfolio/static/js/main.56fa1a44.js",
+    "main.css": "/JuanCaceresProfolio/static/css/main.3e8f06d5.css",
+    "main.js": "/JuanCaceresProfolio/static/js/main.7e255fea.js",
     "static/js/453.014ed64d.chunk.js": "/JuanCaceresProfolio/static/js/453.014ed64d.chunk.js",
     "static/media/banner_bg_opti2.mp4": "/JuanCaceresProfolio/static/media/banner_bg_opti2.796d4b36897ecc5ad667.mp4",
+    "static/media/MotorcycleServicePortada.png": "/JuanCaceresProfolio/static/media/MotorcycleServicePortada.ae5e75e17e7de8a956aa.png",
     "static/media/color-sharp2.png": "/JuanCaceresProfolio/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
-    "static/media/banner_marco3.png": "/JuanCaceresProfolio/static/media/banner_marco3.8a861c0033ba71bd24a1.png",
-    "static/media/SaboresCriollosPortada.png": "/JuanCaceresProfolio/static/media/SaboresCriollosPortada.8cce7a6a7cca8faf0d7d.png",
-    "static/media/MoviesAppPortada.png": "/JuanCaceresProfolio/static/media/MoviesAppPortada.7ad64a7627b617c25b7e.png",
-    "static/media/AndreinaArtisticaPortada.png": "/JuanCaceresProfolio/static/media/AndreinaArtisticaPortada.0fcdc694a8dac928d091.png",
-    "static/media/MotoPotenciaPortada.png": "/JuanCaceresProfolio/static/media/MotoPotenciaPortada.5dcf4c6983ed14cba5ea.png",
-    "static/media/MedraClubFemPortada.png": "/JuanCaceresProfolio/static/media/MedraClubFemPortada.708d4f61c98102c55214.png",
-    "static/media/Cacer'osPortada.png": "/JuanCaceresProfolio/static/media/Cacer'osPortada.08767f1b589f8da0b041.png",
+    "static/media/FotoJuanPortada.png": "/JuanCaceresProfolio/static/media/FotoJuanPortada.e5e65f52e78c2f65d91c.png",
     "static/media/CentraNo2-Bold.ttf": "/JuanCaceresProfolio/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/JuanCaceresProfolio/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/CentraNo2-Book.ttf": "/JuanCaceresProfolio/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/MotorcycleServiceLogo.png": "/JuanCaceresProfolio/static/media/MotorcycleServiceLogo.84f3bb9858e9d2763efb.png",
     "static/media/Logo_JCcode.png": "/JuanCaceresProfolio/static/media/Logo_JCcode.ea43543db0daea1006b6.png",
     "static/media/nav-icon2.png": "/JuanCaceresProfolio/static/media/nav-icon2.85827cb7d77ccbb81204.png",
     "static/media/revicons.eot": "/JuanCaceresProfolio/static/media/revicons.a77de540a38981833f9e.eot",
@@ -23,12 +19,12 @@
     "static/media/nav-icon3.svg": "/JuanCaceresProfolio/static/media/nav-icon3.08b285abb8e118b52637efa5d65c5367.svg",
     "index.html": "/JuanCaceresProfolio/index.html",
     "static/media/nav-icon1.svg": "/JuanCaceresProfolio/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
-    "main.3d46dcae.css.map": "/JuanCaceresProfolio/static/css/main.3d46dcae.css.map",
-    "main.56fa1a44.js.map": "/JuanCaceresProfolio/static/js/main.56fa1a44.js.map",
+    "main.3e8f06d5.css.map": "/JuanCaceresProfolio/static/css/main.3e8f06d5.css.map",
+    "main.7e255fea.js.map": "/JuanCaceresProfolio/static/js/main.7e255fea.js.map",
     "453.014ed64d.chunk.js.map": "/JuanCaceresProfolio/static/js/453.014ed64d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3d46dcae.css",
-    "static/js/main.56fa1a44.js"
+    "static/css/main.3e8f06d5.css",
+    "static/js/main.7e255fea.js"
   ]
 }
