@@ -1,5 +1,7 @@
 import projImg1 from "../assets/img/MotorcycleServicePortada.png";
 import projImg2 from "../assets/img/MotorcycleServiceLogo.png";
+import projImg3 from "../assets/img/AppSalesManagmentPortada.png";
+import projImg4 from "../assets/img/AppSalesManagmentCarrousel.png"
 
 export const projects = [
   {
@@ -28,21 +30,64 @@ export const projects = [
     ],
     videoDemo: "https://tu-link-a-video.com",
     approach:
-      "I used Google Sheets as a simulated relational database and AppSheet to build forms, record views, and custom actions.",
+      "In this project, I used Google Sheets as a simulated relational database and AppSheet to build custom forms, record views, and actions tailored to the workflow of a motorcycle service business.",
     challenges:
-      "The main challenge was designing a logic system that allowed reuse of previously entered data (existing clients) and automating PDF generation based on specific conditions.",
+      "The main challenge was designing a logic structure that could reuse previously entered data—such as existing clients—and automate the generation of PDF estimates based on specific conditions.",
     learning:
-      "I improved my ability to work with no-code tools by applying declarative logic, conditional structures, and a smooth user experience.",
+      "This experience allowed me to significantly improve my skills with no-code tools by applying declarative logic, conditional flows, and a user-friendly interface design.",
     status: "In production, currently used by the workshop",
     outcome:
-      "Reduced management time, improved internal organization, and systematized a more efficient workflow for the business.",
+      "As a result, I helped reduce the management time, improve internal organization, and systematize a more efficient and scalable workflow for the business.",
     githubRepo: "",
     liveDemo: "",
     post: "",
     pdf: "",
     closingNote:
-      "This project helped me understand the power of no-code tools to create real, functional solutions that adapt to all kinds of devices. Being cloud-based, they also offer accessibility, scalability, and easy maintenance without complex infrastructure.",
+      'Beyond the technical execution, this project gave me a deeper understanding of system design and database structure at a conceptual level. Even without writing traditional code, I had to carefully consider how the data would relate, flow, and remain consistent—enhancing my architectural thinking and problem-solving abilities in real-world scenarios.',
   },
+  {
+  id: "2",
+  title: "Desktop App for Sales and Customer Management",
+  category: "first",
+  subtitle:
+    "Desktop application developed as a technical challenge for a developer position, focused on managing customers, products, and business sales.",
+  mainImage: projImg3,
+  tags: ["Visual Basic .NET", "SQL Server", "Desktop App", "Sales Management"],
+  problem:
+    "The challenge was to build a functional application capable of managing customers, products, and sales, including reports and automatic calculations, replicating common internal business system scenarios. The system had to support create, read, update, and delete operations, along with sales visualization and analysis.",
+  role:
+    "I developed the complete architecture of the application using the 3-layer pattern. I implemented forms with conditional logic, validations, automatic calculations, and SQL queries for dynamic reporting.",
+  tools: [
+    "Visual Basic .NET",
+    "SQL Server",
+    "Windows Forms",
+    "ADO.NET",
+    "Three-Layer Architecture",
+  ],
+  duration: "April 2025 (1 week)",
+  type: "Technical Challenge",
+  images: [
+    projImg3,
+    projImg4,
+    projImg3,
+  ],
+  videoDemo: "https://tu-video-link.com",
+  approach:
+    "I designed a well-structured system with independent forms for customers, products, and sales. SQL Server was used as the relational database, with stored procedures and optimized queries. I also added visual validations to ensure clean data entry.",
+  challenges:
+    "One of the biggest challenges was maintaining clear business logic across layers, ensuring data consistency and modular code. I also faced issues with deleted entities (customers or products) that were still referenced in sales records. I solved this using LEFT JOIN with ISNULL to display 'Deleted Customer' or 'Deleted Product' instead of breaking the view. However, a better long-term solution would be to add a few additional columns and implement a snapshot approach to preserve historical data integrity regardless of future changes.",
+  learning:
+    "This project helped me strengthen key concepts such as layered architecture, data normalization, relationship handling, and form validation. I also improved my ability to interpret technical requirements in realistic environments.",
+  status: "Completed",
+  outcome:
+    "I delivered a functional application that met most of the requirements and even included extra features such as category management using JSON. I learned a lot from the experience and from the mistakes I made in interpreting some parts of the instructions.",
+  githubRepo: "https://github.com/tuusuario/prueba-tecnica-vbnet",
+  liveDemo: "",
+  post: "",
+  pdf: "",
+  closingNote:
+    "This technical challenge was a valuable opportunity to test my skills in real-world scenarios. It strengthened my understanding of layered architectures, data consistency, and user-centered logic. I’m proud of the results and aware of the areas I can continue improving.",
+},
   // {
   //   id: "",
   //   title: "Movies App",

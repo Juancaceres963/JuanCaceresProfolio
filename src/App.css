@@ -24,7 +24,7 @@
 }
 
 html {
-  scroll-behavior: auto!important;
+  scroll-behavior:auto!important;
   scroll-padding-top: 75px;
 }
 
@@ -766,7 +766,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project-details-inicio img {
   object-fit: cover;
   max-height: 550px;
-  min-height: 400px;
+  min-height: 300px;
 }
 .project-details-inicio p {
   color: #b8b8b8;
@@ -796,11 +796,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   list-style: none;
   padding: 0;
   margin: 0;
+  max-width: 700px;
 }
 .project-details-descripcion ul li {
   color: #858585d0;
-  padding: 0 15px;
+  padding: 2px 15px;
   font-size: 20px;
+}
+.project-details-descripcion .temas p {
+  max-width: 900px;
+  margin-top: 6px;
+  font-size: 18px;
 }
 @media only screen and (max-width: 992px) {
   .project-details-descripcion ul {
@@ -814,7 +820,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   .project-details-descripcion p {
     color: #b8b8b8;
     font-size: 20px;
-    
   }
 }
 .project-details-descripcion .carousel-inner {
@@ -828,6 +833,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
+}
+@media only screen and (max-width: 600px) {
+  .project-details-descripcion .carousel-inner .carousel-item img {
+    height: 280px;
+  }
 }
 .project-details-descripcion .carousel-indicators {
   display: none;

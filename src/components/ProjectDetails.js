@@ -48,6 +48,14 @@ export const ProjectDetails = () => {
             <p>{project.role}</p>
           </div>
           <div className="temas">
+            <h3>Case Study</h3>
+            <p>{project.approach}</p>
+            <p>{project.challenges}</p>
+            <p>{project.learning}</p>
+            <p>{project.outcome}</p>
+            <p>{project.closingNote}</p>
+          </div>
+          <div className="temas">
           <ul>
             {project.tools.map((tech, index) => (
               <li key={index}>{tech}</li>
@@ -65,9 +73,12 @@ export const ProjectDetails = () => {
               </Carousel.Item>
             ))}
           </Carousel>
-          <div className="tools">
-            <p>{project.duration}</p>
-            <p>{project.type}</p>
+          <div className="temas">
+            <ul>
+              <li>{project.duration}</li>
+              <li>{project.type}</li>
+            </ul>
+            <p>{project.status}</p>
           </div>
         </div>
       </Container>
