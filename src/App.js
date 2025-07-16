@@ -6,9 +6,10 @@
  import { Banner } from './components/Banner.js';
  import { Skills } from './components/Skills.js';
  import { Projects } from './components/Projects.js';
-//  import { Contact } from './components/Contact.js';
  import { Footer } from './components/Footer.js';
- import { ProjectDetails } from './components/ProjectDetails.js'; // Importa la página de detalles
+ import { ProjectDetails } from './components/ProjectDetails.js';
+ import ScrollToTop from './hooks/ScrollToTop.js';
+  // Importa la página de detalles
  import 'bootstrap/dist/css/bootstrap.min.css';
  import "bootstrap/dist/js/bootstrap.bundle.min.js";
  import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
@@ -31,6 +32,7 @@ function App() {
 
   return (
     <div className="App">
+      <ScrollToTop />
       <Navigation />
       <Routes>
         <Route path="/" element={
