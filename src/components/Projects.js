@@ -1,16 +1,7 @@
 import { useEffect, useState } from "react";
-import {
-  Container,
-  Row,
-  TabContainer,
-  TabContent,
-  Col,
-  Nav,
-  Tab,
-} from "react-bootstrap";
+import {Container,Row,TabContainer,TabContent,Col,Nav,Tab} from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import { projects } from "./projectsData"; // ✅ Importamos la lista de proyectos
-import colorSharp2 from "../assets/img/color-sharp2.png";
 
 export const Projects = () => {
   const [selectedCategory, setSelectedCategory] = useState("first");
@@ -90,7 +81,7 @@ export const Projects = () => {
                   <Nav.Link eventKey="first">Software Development</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="second">Marketing & Design</Nav.Link>
+                  <Nav.Link eventKey="second">Design</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                   <Nav.Link eventKey="third">Management</Nav.Link>
@@ -154,11 +145,6 @@ export const Projects = () => {
           </Col>
         </Row>
       </Container>
-      <img
-        className="background-image-right"
-        src={colorSharp2}
-        alt="Background"
-      />
     </section>
   );
 };

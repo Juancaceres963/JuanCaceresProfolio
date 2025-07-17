@@ -134,7 +134,7 @@ export const Skills = () => {
                     className="circular-progress"
                     percentage={100}
                   />
-                  <h5>Attitude and Passion 😉</h5>
+                  <h5>Attitude and Passion 🎯</h5>
                 </div>
               </Carousel>
             </div>

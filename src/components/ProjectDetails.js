@@ -1,17 +1,7 @@
 import { useParams } from "react-router-dom";
 import { projects } from "./projectsData"; // ✅ Importamos la lista de proyectos
 import { Footer } from "./Footer.js";
-import { useEffect } from "react";
-import {
-  Container,
-  Carousel,
-  TabContainer,
-  TabContent,
-  Col,
-  Nav,
-  Tab,
-} from "react-bootstrap";
-import UnderConstructionModal from "../components/UnderConstructionModal";
+import {Container,Carousel} from "react-bootstrap";
 import "../styles/projectDetails.scss";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "bootstrap/dist/css/bootstrap.min.css";
