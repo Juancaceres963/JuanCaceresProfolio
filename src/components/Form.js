@@ -9,7 +9,7 @@ function Form() {
   return (
     <div className={styles.form}>
       {state.succeeded === true && state.submitting === false ? (
-        <p className={styles.message}>Soon I will be in touch, Thanks!</p>
+        <p className={styles.message}> Thanks! I will be in touch with you</p>
       ) : (
         ""
       )}
