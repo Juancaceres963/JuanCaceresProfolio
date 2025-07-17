@@ -24,7 +24,7 @@
 }
 
 html {
-  scroll-behavior:auto!important;
+  scroll-behavior: auto !important;
   scroll-padding-top: 75px;
 }
 
@@ -725,6 +725,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.8px;
   color: #fff;
 }
+@media only screen and (min-width: 1200px) {
+  .proj-txtx {
+    padding: 0 40px;
+  }
+  .proj-txtx h4 {
+    font-size: 28px;
+  }
+  .proj-txtx span {
+    font-size: 18px;
+  }
+}
 .background-image-right {
   top: 20%;
   position: absolute;
@@ -766,7 +777,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project-details-inicio img {
   object-fit: cover;
   max-height: 550px;
-  min-height: 300px;
+  min-height: 260px;
 }
 .project-details-inicio p {
   color: #b8b8b8;
@@ -788,6 +799,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project-details-descripcion p {
   color: #b8b8b8;
   font-size: 24px;
+  line-height: 1.6;
 }
 .project-details-descripcion ul {
   display: flex;
@@ -802,6 +814,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: #858585d0;
   padding: 2px 15px;
   font-size: 20px;
+}
+.project-details-descripcion .temas ul li {
+  width: auto;
 }
 .project-details-descripcion .temas p {
   max-width: 900px;
@@ -836,7 +851,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 @media only screen and (max-width: 600px) {
   .project-details-descripcion .carousel-inner .carousel-item img {
-    height: 280px;
+    height: 240px;
   }
 }
 .project-details-descripcion .carousel-indicators {
@@ -976,8 +991,8 @@ div.form_form__2HN1S {
 
 @media only screen and (max-width: 992px) {
   .footer-redes .social-icon {
-  padding-top: 0!important;
-}
+    padding-top: 0 !important;
+  }
 }
 .copy {
   width: 100%;
