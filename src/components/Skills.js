@@ -90,13 +90,6 @@ export const Skills = () => {
                 <div className="item">
                   <CircularProgress
                     className="circular-progress"
-                    percentage={55}
-                  />
-                  <h5>Digital Marketing and SEO</h5>
-                </div>
-                <div className="item">
-                  <CircularProgress
-                    className="circular-progress"
                     percentage={90}
                   />
                   <h5>Creativity and Design</h5>

@@ -489,6 +489,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .circular-progress {
   overflow: hidden;
 }
+.skill-bx {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 .skill h2 {
   font-size: 45px;
   font-weight: 700;
@@ -499,6 +505,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.8px;
   line-height: 1.5em;
   margin: 14px 0 40px 0;
+  max-width: 900px;
+  
 }
 .skill-slider .item {
   display: flex;
@@ -585,6 +593,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin: 40px auto 30px auto;
   text-align: center;
   width: 90%;
+  max-width: 900px;
 }
 .project p:first-child {
   margin: 0px auto;
@@ -784,6 +793,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-size: 24px;
   padding: 0;
   margin: 0;
+}
+.project-details-inicio .project-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 .project-details-descripcion {
   padding: 30px 0 0 0;

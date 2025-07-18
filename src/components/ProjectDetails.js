@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
 import { projects } from "./projectsData"; // ✅ Importamos la lista de proyectos
 import { Footer } from "./Footer.js";
-import {Container,Carousel} from "react-bootstrap";
+import { Container, Carousel } from "react-bootstrap";
 import "../styles/projectDetails.scss";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -22,6 +22,10 @@ export const ProjectDetails = () => {
           <h1>{project.title}</h1>
           <img src={project.mainImage} />
           <p>{project.subtitle}</p>
+          <div className="project-links">
+            <a href={project.githubRepo} target="_blank">Repo GitHub</a>
+            <a href={project.post} target="_blank">Post VideoDemo</a>
+          </div>
         </div>
         <div className="project-details-descripcion">
           <ul>
@@ -46,10 +50,10 @@ export const ProjectDetails = () => {
             <p>{project.closingNote}</p>
           </div>
           <div className="temas">
-          <ul>
-            {project.tools.map((tech, index) => (
-              <li key={index}>{tech}</li>
-            ))}
+            <ul>
+              {project.tools.map((tech, index) => (
+                <li key={index}>{tech}</li>
+              ))}
             </ul>
           </div>
           <Carousel interval={5000} fade>
