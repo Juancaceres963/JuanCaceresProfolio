@@ -1,45 +1,48 @@
- import './App.css';
- import { useEffect } from "react";
- import { useLocation } from "react-router-dom";
- import BackgroundVideo from './components/BackgroundVideo.js';
- import { Navigation } from './components/Navigation.js';
- import { Banner } from './components/Banner.js';
- import { Skills } from './components/Skills.js';
- import { Projects } from './components/Projects.js';
- import { Footer } from './components/Footer.js';
- import { ProjectDetails } from './components/ProjectDetails.js';
- import ScrollToTop from './hooks/ScrollToTop.js';
-  // Importa la página de detalles
- import 'bootstrap/dist/css/bootstrap.min.css';
- import "bootstrap/dist/js/bootstrap.bundle.min.js";
- import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
- 
+// ───── Librerías externas ─────
+import { useEffect } from "react";
+import { useLocation, useNavigate, BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-//**********  Version n3 del dia de hoy 26/03 *************//
+// ───── Estilos globales ─────
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
+import './App.css';
+
+// ───── Hooks personalizados ─────
+import useScrollManager from './hooks/useScrollManager';
+
+// ───── Componentes ─────
+import BackgroundVideo from './components/BackgroundVideo/BackgroundVideo';
+import { Banner } from './components/Banner/Banner';
+import { Footer } from './components/Footer/Footer';
+import { MyStory } from './components/MyStory/MyStory';
+import { Navigation } from './components/NavBar/Navigation';
+import { Projects } from './components/Projects/Projects';
+import { ProjectDetails } from './components/ProjectDetails/ProjectDetails';
+
 function App() {
+  useScrollManager();
+
   const location = useLocation();
-  
+  const navigate = useNavigate();
+
   useEffect(() => {
-    if (location.hash) {
-      const element = document.getElementById(location.hash.replace("#", ""));
-      if (element) {
-        setTimeout(() => {
-          element.scrollIntoView({ behavior: "smooth" });
-        }, 100);
-      }
+    // Eliminar el hash de la URL cuando cargamos desde un ancla
+    if (location.pathname === "/JuanCaceresProfolio" && location.hash) {
+      setTimeout(() => {
+        window.history.replaceState(null, "", "/JuanCaceresProfolio");
+      }, 10);
     }
   }, [location]);
 
   return (
     <div className="App">
-      <ScrollToTop />
       <Navigation />
       <Routes>
         <Route path="/" element={
           <>
             <BackgroundVideo />
             <Banner />
-            <Skills />
+            <MyStory />
             <Projects />
             <Footer />
           </>
