@@ -1,7 +1,8 @@
 import { useParams } from "react-router-dom";
-import { projects } from "../ProjectsData/ProjectsData.js"; 
+import { projects } from "../ProjectsData/ProjectsData.js";
 import { SubTitulo } from "../SubTitulo/SubTitulo.js";
 import { Parrafo } from "../Paragraph/Paragraph.js";
+import { Accordion } from "../Accordion/Accordion.js";
 import { Footer } from "../Footer/Footer.js";
 import { Container, Carousel } from "react-bootstrap";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
@@ -25,8 +26,12 @@ export const ProjectDetails = () => {
           <img src={project.mainImage} />
           <h3>{project.subtitle}</h3>
           <div className="project-links">
-            <a href={project.githubRepo} target="_blank">Repo GitHub</a>
-            <a href={project.post} target="_blank">Post VideoDemo</a>
+            <a href={project.githubRepo} target="_blank">
+              Repo GitHub
+            </a>
+            <a href={project.post} target="_blank">
+              Post VideoDemo
+            </a>
           </div>
           <ul>
             {project.tags.map((tags, index) => (
@@ -36,20 +41,19 @@ export const ProjectDetails = () => {
         </div>
         <div className="project-details-descripcion">
           <div className="temas">
-            <SubTitulo text="Problem"/>
-            <Parrafo text={project.problem}/>
+            <Accordion subtitulo="Problem" text={project.problem}/>
           </div>
           <div className="temas">
-            <SubTitulo text="Role"/>
-            <Parrafo text={project.role}/>
+            <SubTitulo text="Role" />
+            <Parrafo text={project.role} />
           </div>
           <div className="temas">
-            <SubTitulo text="Case Study"/>
-            <Parrafo text={project.approach}/>
-            <Parrafo text={project.challenges}/>
-            <Parrafo text={project.learning}/>
-            <Parrafo text={project.outcome}/>
-            <Parrafo text={project.closingNote}/>
+            <SubTitulo text="Case Study" />
+            <Parrafo text={project.approach} />
+            <Parrafo text={project.challenges} />
+            <Parrafo text={project.learning} />
+            <Parrafo text={project.outcome} />
+            <Parrafo text={project.closingNote} />
           </div>
           <div className="temas">
             <ul>

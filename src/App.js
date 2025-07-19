@@ -11,7 +11,7 @@ import './App.css';
 import useScrollManager from './hooks/useScrollManager';
 
 // ───── Componentes ─────
-import BackgroundVideo from './components/BackgroundVideo/BackgroundVideo';
+import { BackgroundVideo } from './components/BackgroundVideo/BackgroundVideo';
 import { Banner } from './components/Banner/Banner';
 import { Footer } from './components/Footer/Footer';
 import { MyStory } from './components/MyStory/MyStory';

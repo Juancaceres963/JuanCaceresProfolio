@@ -3,7 +3,7 @@ import bannerVideo from "../../assets/video/banner_bg_opti2.mp4";
 import "./BackgroundVideo.css"
 
 
-const BackgroundVideo = () => {
+export const BackgroundVideo = () => {
   const videoRef = useRef(null);
 
   useEffect(() => {
