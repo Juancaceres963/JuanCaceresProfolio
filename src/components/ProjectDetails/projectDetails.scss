@@ -84,6 +84,10 @@ $carousel-transition: transform $carousel-transition-duration ease-in-out;
     align-items: center;
     gap: 20px;
   }
+
+  ul {
+    padding: 0;
+  }
 }
 
 .project-details-descripcion {
@@ -93,6 +97,11 @@ $carousel-transition: transform $carousel-transition-duration ease-in-out;
   justify-content: center;
   align-items: center;
   gap: 15px;
+
+  .temas {
+    width: 100%;
+    max-width: 900px;
+  }
 
   .carousel-inner {
     margin: 20px 0;
@@ -107,6 +116,10 @@ $carousel-transition: transform $carousel-transition-duration ease-in-out;
         transition: height 0.3s ease;
       }
     }
+  }
+
+  ul {
+    padding: 0;
   }
 }
 

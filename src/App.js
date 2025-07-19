@@ -6,6 +6,7 @@ import { useLocation, useNavigate, BrowserRouter as Router, Routes, Route } from
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import './App.css';
+import './styles/custom.scss';
 
 // ───── Hooks personalizados ─────
 import useScrollManager from './hooks/useScrollManager';

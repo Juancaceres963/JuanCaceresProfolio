@@ -43,7 +43,7 @@ export const ProjectDetails = () => {
           <div className="temas">
             <Accordion subtitulo="Problem" text={project.problem}/>
           </div>
-          <div className="temas">
+          {/* <div className="temas">
             <SubTitulo text="Role" />
             <Parrafo text={project.role} />
           </div>
@@ -61,7 +61,7 @@ export const ProjectDetails = () => {
                 <li key={index}>{tech}</li>
               ))}
             </ul>
-          </div>
+          </div> */}
           <Carousel interval={5000} fade>
             {project.images.map((img, index) => (
               <Carousel.Item key={index}>
@@ -73,13 +73,11 @@ export const ProjectDetails = () => {
               </Carousel.Item>
             ))}
           </Carousel>
-          <div className="temas">
             <ul>
               <li>{project.duration}</li>
               <li>{project.type}</li>
             </ul>
             <Parrafo text={project.status} />
-          </div>
         </div>
       </Container>
       <Footer />
