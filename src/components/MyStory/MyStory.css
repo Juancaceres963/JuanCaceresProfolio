@@ -1,0 +1,9 @@
+.my-story-section {
+  padding: 60px 0;
+  background-color: black;
+}
+.my-story-section .row .col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
