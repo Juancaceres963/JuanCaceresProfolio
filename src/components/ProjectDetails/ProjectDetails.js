@@ -1,6 +1,5 @@
 import { useParams } from "react-router-dom";
 import { projects } from "../ProjectsData/ProjectsData.js";
-import { SubTitulo } from "../SubTitulo/SubTitulo.js";
 import { Parrafo } from "../Paragraph/Paragraph.js";
 import { Accordion } from "../Accordion/Accordion.js";
 import { Carrousel } from "../Carrousel/Carrousel.js"
@@ -23,7 +22,6 @@ export const ProjectDetails = () => {
     <div>
       <Container>
         <div className="project-details-inicio">
-          {/* <UnderConstructionModal /> */}
           <h1>{project.title}</h1>
           <img src={project.mainImage} />
           <h3>{project.subtitle}</h3>
