@@ -1,0 +1,120 @@
+/*.stars { /* 🔁 CAMBIO clave: ahora es relativo al contenedor padre */
+  /* width: 100%;
+  height: 100%;
+  background: black;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.stars::after {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: 
+    radial-gradient(white 1px, transparent 1px) 0 0,
+    radial-gradient(white 1px, transparent 1px) 50px 50px,
+    radial-gradient(white 1px, transparent 1px) 100px 100px;
+  background-size: 200px 200px;
+  animation: moveStars 100s linear infinite;
+  opacity: 0.4;
+}
+
+@keyframes moveStars {
+  from {
+    transform: translate(0, 0);
+  }
+  to {
+    transform: translate(-200px, -200px);
+  }
+} */
+.stars {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+}
+
+/* ⭐ Capa 1 - Estrellas pequeñas y muy lentas */
+.stars::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height: 200%;
+  background: 
+    radial-gradient(white 0.6px, transparent 1px) 0 0,
+    radial-gradient(white 0.3px, transparent 1px) 50px 100px,
+    radial-gradient(white 0.4px, transparent 1px) 120px 50px;
+  background-size: 80px 80px;
+  animation: moveStars1 200s ease-out infinite;
+  animation-direction: alternate;
+  opacity: 0.2;
+}
+
+/* ⭐⭐ Capa 2 - Estrellas medianas y velocidad media */
+.stars::after {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height: 200%;
+  background: 
+    radial-gradient(white 0.8px, transparent 1px) 320px 30px,
+    radial-gradient(white 1.2px, transparent 1px) 170px -50px,
+    radial-gradient(white 1px, transparent 1px) 100px 100px;
+  background-size: 180px 180px;
+  animation: moveStars2 160s ease-in infinite;
+  animation-direction: alternate;
+  opacity: 0.3;
+}
+
+/* ⭐⭐⭐ Capa 3 - Estrellas grandes y más rápidas */
+.stars-layer3 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height: 200%;
+  background: 
+    radial-gradient(white 1.9px, transparent 1px) 45px 0px,
+    radial-gradient(white 1.5px, transparent 1px) 75px 95px,
+    radial-gradient(white 1.7px, transparent 1px) 350px 370px;
+  background-size: 500px 500px;
+  animation: moveStars3 130s ease-in-out infinite;
+  animation-direction: alternate;
+  opacity: 0.5;
+}
+
+/* Animaciones */
+@keyframes moveStars1 {
+  from {
+    transform: translate(0px, 0px);
+  }
+  to {
+    transform: translate(-100px, -100px);
+  }
+}
+
+@keyframes moveStars2 {
+  from {
+    transform: translate(0, 0);
+  }
+  to {
+    transform: translate(-200px, -200px);
+  }
+}
+
+@keyframes moveStars3 {
+  from {
+    transform: translate(-100px, 100px);
+  }
+  to {
+    transform: translate(90px, -190px);
+  }
+}
