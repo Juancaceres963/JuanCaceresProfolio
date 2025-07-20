@@ -1,3 +1,10 @@
+.footer {
+  position: relative;
+  z-index: 1;
+  background-blend-mode: overlay, overlay, difference, difference, difference, normal;
+  background-color: black;
+}
+
 .footer-container {
   font-family: Centra;
   font-weight: 500;
@@ -28,7 +35,7 @@
 }
 
 .footer-redes {
-  margin-top: 66px;
+  /* margin-top: 66px; */
   font-size: 20px;
 }
 
@@ -57,7 +64,7 @@
   }
 
   .footer-redes .social-icon {
-    padding-top: 0;
+    padding-top: 0!important;
   }
 
   div.form_form__2HN1S {
