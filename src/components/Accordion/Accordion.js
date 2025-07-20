@@ -92,6 +92,35 @@ export const Accordion = () => {
           </div>
         </div>
       </div>
+      <div class="accordion-item">
+        <div className="accordion-tema">
+          <h2 class="accordion-header" id="panelsStayOpen-headingFourth">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseFourth "
+              aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseFourth "
+            >
+              <SubTitulo text="Tools" />
+            </button>
+          </h2>
+        </div>
+        <div
+          id="panelsStayOpen-collapseFourth"
+          class="accordion-collapse collapse"
+          aria-labelledby="panelsStayOpen-headingFourth"
+        >
+          <div class="accordion-body">
+            <ul>
+              {project.tools.map((tags, index) => (
+                <li key={index}>{tags}</li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
