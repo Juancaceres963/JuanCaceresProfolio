@@ -13,7 +13,8 @@ import projImg12 from "../../assets/img/FutbolProjectCarrousel.png";
 import projImg13 from "../../assets/img//FutbolProjectCarrousel1.png";
 import projImg14 from "../../assets/img/FutbolProjectCarrousel2.png";
 import projImg15 from "../../assets/img/FutbolProjectCarrousel3.png";
-// import projImg16 from "../../assets/img/SystemSoccerCarrousel1.png";
+import projImg16 from "../../assets/img/SCLogo.png";
+import projImg17 from "../../assets/img/SCCarrousel.png";
 
 export const projects = [
   {
@@ -202,14 +203,14 @@ export const projects = [
     subtitle:
       "Spreadsheet-based system built to manage income, expenses, and daily sales data in a small-scale food business.",
     tags: ["Google Sheets", "Formulas", "Operations", "Finance Tracking"],
-    mainImage: projImg13,
+    mainImage: projImg16,
     problem:
       "The business lacked a clear system to manage financial flows, track costs, and monitor daily operations. As a result, it was hard to understand how much was being invested, how much was earned, and which products were the most profitable.",
     role: "In addition to participating in food preparation, shopping, and customer service, I took the initiative to design and implement a custom spreadsheet system that helped organize the business's finances and daily operations. I also actively offered the service to potential clients, as I was involved in both the commercial and administrative aspects.",
     tools: ["Google Sheets"],
     duration: "January 2024",
-    type: "Small Business Collaboration",
-    images: [projImg13, projImg13],
+    type: "Business Collaboration",
+    images: [projImg17, projImg16],
     status: "Discontinued",
     approach:
       "Using Google Sheets, I created a structured set of tables to track every money movement — income, expenses, cost per dish, and overall profitability. I also developed a daily log to record what dishes were prepared and how many units were sold each day. Through formulas and logical structuring, the system delivered insights automatically and allowed for informed decision-making regarding menu planning, pricing, and investments.",
@@ -218,7 +219,7 @@ export const projects = [
     learning:
       "This project helped me realize how much I enjoy organizing information and building tools to make everyday work more efficient. It also showed me the value of technology in small, hands-on businesses. Despite not continuing in the project, this experience became an important part of my early formation in tech and problem-solving.",
     outcome:
-      "While the business eventually stopped using the system after I left the team, the tool worked effectively during its implementation and offered a clear framework for managing both financial and operational data. It served as a foundational exercise in using spreadsheets as dynamic business tools.",
+      "While I don't know if the company continues to use the system after I left the team, the tool worked effectively during its implementation, providing a clear framework for managing financial and operational data. It served as a fundamental exercise in using spreadsheets as dynamic business tools.",
     closingNote:
       "This early project was a turning point for me. It revealed how simple tools — when well thought out — can create order and clarity in complex, everyday environments. It also affirmed my drive to solve problems through a mix of technology, logic, and empathy.",
     //githubRepo: "",
