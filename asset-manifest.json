@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/JuanCaceresProfolio/static/css/main.21ad041f.css",
-    "main.js": "/JuanCaceresProfolio/static/js/main.965e6035.js",
+    "main.js": "/JuanCaceresProfolio/static/js/main.7f6c646f.js",
     "static/js/453.3ddbf2d3.chunk.js": "/JuanCaceresProfolio/static/js/453.3ddbf2d3.chunk.js",
     "static/media/banner_bg_opti2.mp4": "/JuanCaceresProfolio/static/media/banner_bg_opti2.796d4b36897ecc5ad667.mp4",
     "static/media/AndreinartisticaCarrousel.png": "/JuanCaceresProfolio/static/media/AndreinartisticaCarrousel.772eb68b702627963c16.png",
@@ -10,6 +10,7 @@
     "static/media/PortafolioJuanCarrousel1.png": "/JuanCaceresProfolio/static/media/PortafolioJuanCarrousel1.21466025765f1c63d0df.png",
     "static/media/PortafolioJuanPortadaMax.png": "/JuanCaceresProfolio/static/media/PortafolioJuanPortadaMax.c41a3945deeb3c9dae69.png",
     "static/media/PortafolioJuanCarrousel.png": "/JuanCaceresProfolio/static/media/PortafolioJuanCarrousel.316810e9b0e982668e90.png",
+    "static/media/SCCarrousel.png": "/JuanCaceresProfolio/static/media/SCCarrousel.974b44132193cec78f62.png",
     "static/media/FutbolProjectCarrousel.png": "/JuanCaceresProfolio/static/media/FutbolProjectCarrousel.e11999ad32506af27fb5.png",
     "static/media/FutbolProjectCarrousel3.png": "/JuanCaceresProfolio/static/media/FutbolProjectCarrousel3.028c9c724e3c196a2c6b.png",
     "static/media/AppSalesManagmentPortada.png": "/JuanCaceresProfolio/static/media/AppSalesManagmentPortada.24eda31c20c349a51352.png",
@@ -17,6 +18,7 @@
     "static/media/MotorcycleServicePortada.png": "/JuanCaceresProfolio/static/media/MotorcycleServicePortada.ae5e75e17e7de8a956aa.png",
     "static/media/FutbolProjectCarrousel2.png": "/JuanCaceresProfolio/static/media/FutbolProjectCarrousel2.548310b856785a2bd26d.png",
     "static/media/FotoJuanPortada.png": "/JuanCaceresProfolio/static/media/FotoJuanPortada.e5e65f52e78c2f65d91c.png",
+    "static/media/SCLogo.png": "/JuanCaceresProfolio/static/media/SCLogo.06eb54fac394dbc37693.png",
     "static/media/PortafolioJuanPortadaLogo.png": "/JuanCaceresProfolio/static/media/PortafolioJuanPortadaLogo.ac650df48cfa34fe3ff7.png",
     "static/media/CentraNo2-Bold.ttf": "/JuanCaceresProfolio/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/JuanCaceresProfolio/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
@@ -29,11 +31,11 @@
     "index.html": "/JuanCaceresProfolio/index.html",
     "static/media/nav-icon1.svg": "/JuanCaceresProfolio/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "main.21ad041f.css.map": "/JuanCaceresProfolio/static/css/main.21ad041f.css.map",
-    "main.965e6035.js.map": "/JuanCaceresProfolio/static/js/main.965e6035.js.map",
+    "main.7f6c646f.js.map": "/JuanCaceresProfolio/static/js/main.7f6c646f.js.map",
     "453.3ddbf2d3.chunk.js.map": "/JuanCaceresProfolio/static/js/453.3ddbf2d3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.21ad041f.css",
-    "static/js/main.965e6035.js"
+    "static/js/main.7f6c646f.js"
   ]
 }
