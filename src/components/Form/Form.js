@@ -19,7 +19,7 @@ function Form() {
         <CircularProgress color="secondary" />
       ) : (
         <form onSubmit={handleSubmit} action="mldjlyor" method="POST" >
-          <SubTitulo text="Contact Me" id="contact"/>
+          <SubTitulo tamano="grande" text="Contact Me" id="contact"/>
           <div>
           <label className={styles.label} htmlFor="email">Send an email!</label>
           <input

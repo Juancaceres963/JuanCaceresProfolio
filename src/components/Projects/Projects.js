@@ -65,7 +65,7 @@ export const Projects = () => {
       <Container>
         <Row>
           <Col>
-            <SubTitulo text="Projects" id="projects"/>
+            <SubTitulo tamano="grande" text="Projects" id="projects"/>
             <Parrafo
               text="Here are some of the projects I’ve worked on, grouped by focus.
               Whether you're interested in UI/UX design, fully coded apps, or

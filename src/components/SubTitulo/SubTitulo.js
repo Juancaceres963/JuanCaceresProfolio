@@ -1,7 +1,7 @@
  import './SubTitulo.css';
  
-export const SubTitulo = ({text, id}) => {
+export const SubTitulo = ({text, id, tamano}) => {
     return (
-        <h2 className="sub-titulo" id={id}>{text}</h2>
+        <h2 className={tamano + " sub-titulo"} id={id}>{text}</h2>
     )
 };
