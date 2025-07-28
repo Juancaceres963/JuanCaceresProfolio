@@ -24,7 +24,7 @@ export const Accordion = () => {
             aria-expanded="false"
             aria-controls="flush-collapseOne"
           >
-            <SubTitulo text="Problem" />
+            <SubTitulo tamano="pequena" text="Problem" />
           </button>
         </div>
         <div
@@ -49,7 +49,7 @@ export const Accordion = () => {
               aria-expanded="false"
               aria-controls="panelsStayOpen-collapseTwo"
             >
-              <SubTitulo text="Role" />
+              <SubTitulo tamano="pequena" text="Role" />
             </button>
           </h2>
         </div>
@@ -74,7 +74,7 @@ export const Accordion = () => {
               aria-expanded="false"
               aria-controls="panelsStayOpen-collapseThree"
             >
-              <SubTitulo text="Case Study" />
+              <SubTitulo tamano="pequena" text="Case Study" />
             </button>
           </h2>
         </div>
@@ -103,7 +103,7 @@ export const Accordion = () => {
               aria-expanded="false"
               aria-controls="panelsStayOpen-collapseFourth "
             >
-              <SubTitulo text="Tools" />
+              <SubTitulo tamano="pequena" text="Tools" />
             </button>
           </h2>
         </div>

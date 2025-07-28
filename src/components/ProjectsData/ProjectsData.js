@@ -130,42 +130,42 @@ export const projects = [
     post: "https://www.linkedin.com/posts/juan-caceres-orellana_hola-muy-buenas-noches-espero-que-cada-activity-7310535963846356992-Hj-h?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD7-UMABIZwJSrGp6Qi9N2-ZraSbk8iwev0",
     pdf: "",
   },
-  {
-    id: "4",
-    category: ["first", "second"],
-    title: "Web Portfolio for a Visual Artist",
-    subtitle:
-      "Ongoing development of a personalized platform to showcase and sell the artwork of a contemporary visual artist — built from scratch with full control over design, backend, and deployment.",
-    tags: ["React", "ASP.NET Core", "SQL Server", "UI/UX"],
-    mainImage: projImg5,
-    problem:
-      "The artist needed a platform that could serve both as a visual portfolio and as a tool for selling artwork online. Previously, her presence was scattered across social networks or physical exhibitions, lacking a centralized space that reflected the depth and reach of her work.",
-    role: "I'm in charge of the full development process — from research and UI design to backend architecture, database modeling, and deployment planning. The project is being built with a clear vision for long-term scalability and artistic storytelling.",
-    tools: [
-      "Figma (UI Design)",
-      "React",
-      "ASP.NET Core (C#)",
-      "SQL Server",
-      "Azure Deployment (planned)",
-    ],
-    duration: "January 2024 — Currently in Progress",
-    type: "Personal / Freelance",
-    images: [projImg5, projImg6, projImg5],
-    status: "In Development",
-    approach:
-      "The development follows an MVP structure, prioritizing core features such as the art gallery, artist bio, and exhibition history. The initial design was created in Figma and is now being revised to incorporate features like user login, online payments, and a responsive layout for all devices. Hosting and custom domain deployment are planned through Azure.",
-    challenges:
-      "Balancing aesthetics and technical functionality has been central. Also, I'm revisiting parts of the design to integrate new ideas such as secure payments, client interaction, and mobile-first optimization — all while keeping scalability and usability in mind.",
-    learning:
-      "This project is giving me a deeper understanding of system design from a business and emotional perspective — it's not just about the code, but about building something meaningful, personal, and sustainable over time. It's also helping me refine deployment workflows and sharpen my full-stack capabilities.",
-    outcome:
-      "Still in progress, but already a valuable sandbox for practicing complete product development — from branding and UX to backend logic and cloud hosting.",
-    closingNote:
-      "Even though this project is still evolving, it's one of the most meaningful and technically ambitious projects I've worked on. It represents not only my commitment to creating value through technology, but also a tribute to my mother's art and story — built with love, care, and long-term vision.",
-    //githubRepo: "",
-    //post: "",
-    pdf: "",
-  },
+  // {
+  //   id: "4",
+  //   category: ["first", "second"],
+  //   title: "Web Portfolio for a Visual Artist",
+  //   subtitle:
+  //     "Ongoing development of a personalized platform to showcase and sell the artwork of a contemporary visual artist — built from scratch with full control over design, backend, and deployment.",
+  //   tags: ["React", "ASP.NET Core", "SQL Server", "UI/UX"],
+  //   mainImage: projImg5,
+  //   problem:
+  //     "The artist needed a platform that could serve both as a visual portfolio and as a tool for selling artwork online. Previously, her presence was scattered across social networks or physical exhibitions, lacking a centralized space that reflected the depth and reach of her work.",
+  //   role: "I'm in charge of the full development process — from research and UI design to backend architecture, database modeling, and deployment planning. The project is being built with a clear vision for long-term scalability and artistic storytelling.",
+  //   tools: [
+  //     "Figma (UI Design)",
+  //     "React",
+  //     "ASP.NET Core (C#)",
+  //     "SQL Server",
+  //     "Azure Deployment (planned)",
+  //   ],
+  //   duration: "January 2024 — Currently in Progress",
+  //   type: "Personal / Freelance",
+  //   images: [projImg5, projImg6, projImg5],
+  //   status: "In Development",
+  //   approach:
+  //     "The development follows an MVP structure, prioritizing core features such as the art gallery, artist bio, and exhibition history. The initial design was created in Figma and is now being revised to incorporate features like user login, online payments, and a responsive layout for all devices. Hosting and custom domain deployment are planned through Azure.",
+  //   challenges:
+  //     "Balancing aesthetics and technical functionality has been central. Also, I'm revisiting parts of the design to integrate new ideas such as secure payments, client interaction, and mobile-first optimization — all while keeping scalability and usability in mind.",
+  //   learning:
+  //     "This project is giving me a deeper understanding of system design from a business and emotional perspective — it's not just about the code, but about building something meaningful, personal, and sustainable over time. It's also helping me refine deployment workflows and sharpen my full-stack capabilities.",
+  //   outcome:
+  //     "Still in progress, but already a valuable sandbox for practicing complete product development — from branding and UX to backend logic and cloud hosting.",
+  //   closingNote:
+  //     "Even though this project is still evolving, it's one of the most meaningful and technically ambitious projects I've worked on. It represents not only my commitment to creating value through technology, but also a tribute to my mother's art and story — built with love, care, and long-term vision.",
+  //   //githubRepo: "",
+  //   //post: "",
+  //   pdf: "",
+  // },
   {
     id: "5",
     category: ["third"],

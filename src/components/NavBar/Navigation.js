@@ -88,12 +88,12 @@ export const Navigation = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link
-              onClick={() => handleNavigation("mystory")}
+              onClick={() => handleNavigation("aboutme")}
               className={
                 activeLink === "mystory" ? "active navbar-link" : "navbar-link"
               }
             >
-              My Story
+              About Me
             </Nav.Link>
             <Nav.Link
               onClick={() => handleNavigation("projects")}

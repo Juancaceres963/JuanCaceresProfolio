@@ -15,7 +15,7 @@ import useScrollManager from './hooks/useScrollManager';
 import { BackgroundVideo } from './components/BackgroundVideo/BackgroundVideo';
 import { Banner } from './components/Banner/Banner';
 import { Footer } from './components/Footer/Footer';
-import { MyStory } from './components/MyStory/MyStory';
+import { AboutMe } from './components/AboutMe/AboutMe';
 import { Navigation } from './components/NavBar/Navigation';
 import { Projects } from './components/Projects/Projects';
 import { ProjectDetails } from './components/ProjectDetails/ProjectDetails';
@@ -43,7 +43,7 @@ function App() {
           <>
             <BackgroundVideo />
             <Banner />
-            <MyStory />
+            <AboutMe />
             <Projects />
             <Footer />
           </>

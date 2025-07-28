@@ -1,40 +1,40 @@
-.my-story-section {
+.about-me-section {
   padding: 60px 0;
   background-color: black;
 }
 
-.my-story {
+.about-me {
   position: static;
   overflow: hidden;
 }
 
-.my-story-section .row .col {
+.about-me-section .row .col {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.my-story-text {
+.about-me-text {
   position: relative;
   overflow: hidden;
   transition: max-height 0.8s ease;
 }
 
-.my-story-text.collapsed {
-  max-height: 250px; 
+.about-me-text.collapsed {
+  max-height: 200px; 
 }
 
-.my-story-text.collapsed::after {
+.about-me-text.collapsed::after {
   content: "";
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
-  height: 8rem;
+  height: 5rem;
   background: linear-gradient(to bottom, transparent, rgb(0, 0, 0)); 
 }
 
-.my-story-text.expanded {
+.about-me-text.expanded {
   max-height: 3000px; 
 }
 
