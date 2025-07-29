@@ -1,7 +1,7 @@
 import { Carousel } from "react-bootstrap";
 import { useState } from "react";
 import { useParams } from "react-router-dom";
-import { projects } from "../ProjectsData/ProjectsData.js";
+import { projects } from "../Data/ProjectsData.js";
 import "./Carrousel.scss";
 
 export const Carrousel = () => {

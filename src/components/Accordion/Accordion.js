@@ -1,6 +1,6 @@
 import { SubTitulo } from "../SubTitulo/SubTitulo.js";
-import { Parrafo } from "../Paragraph/Paragraph.js";
-import { projects } from "../ProjectsData/ProjectsData.js";
+import { Paragraph } from "../Paragraph/Paragraph.js";
+import { projects } from "../Data/ProjectsData.js";
 import { useParams } from "react-router-dom";
 import "./Accordion.scss";
 
@@ -34,7 +34,7 @@ export const Accordion = () => {
           data-bs-parent="#accordionFlushExample"
         >
           <div class="accordion-body">
-            <Parrafo text={project.problem} />
+            <Paragraph text={project.problem} />
           </div>
         </div>
       </div>
@@ -59,7 +59,7 @@ export const Accordion = () => {
           aria-labelledby="panelsStayOpen-headingTwo"
         >
           <div class="accordion-body">
-            <Parrafo text={project.role} />
+            <Paragraph text={project.role} />
           </div>
         </div>
       </div>
@@ -84,11 +84,11 @@ export const Accordion = () => {
           aria-labelledby="panelsStayOpen-headingThree"
         >
           <div class="accordion-body">
-            <Parrafo text={project.approach} />
-            <Parrafo text={project.challenges} />
-            <Parrafo text={project.learning} />
-            <Parrafo text={project.outcome} />
-            <Parrafo text={project.closingNote} />
+            <Paragraph text={project.approach} />
+            <Paragraph text={project.challenges} />
+            <Paragraph text={project.learning} />
+            <Paragraph text={project.outcome} />
+            <Paragraph text={project.closingNote} />
           </div>
         </div>
       </div>

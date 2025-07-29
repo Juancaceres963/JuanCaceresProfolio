@@ -16,6 +16,7 @@ import { BackgroundVideo } from './components/BackgroundVideo/BackgroundVideo';
 import { Banner } from './components/Banner/Banner';
 import { Footer } from './components/Footer/Footer';
 import { AboutMe } from './components/AboutMe/AboutMe';
+import { Certificates } from './components/Certificates/Certificates';
 import { Navigation } from './components/NavBar/Navigation';
 import { Projects } from './components/Projects/Projects';
 import { ProjectDetails } from './components/ProjectDetails/ProjectDetails';
@@ -45,6 +46,7 @@ function App() {
             <Banner />
             <AboutMe />
             <Projects />
+            <Certificates />
             <Footer />
           </>
         } />

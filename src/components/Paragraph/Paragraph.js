@@ -1,7 +1,7 @@
-import './Parrafo.css';
+import './Paragraph.css';
  
-export const Parrafo = ({text}) => {
+export const Paragraph = ({text}) => {
     return (
-        <p className="parrafo">{text}</p>
+        <p className="Paragraph">{text}</p>
     );
 };

@@ -9,9 +9,9 @@ import {
   Tab,
 } from "react-bootstrap";
 import { SubTitulo } from "../SubTitulo/SubTitulo.js";
-import { Parrafo } from "../Paragraph/Paragraph.js";
+import { Paragraph } from "../Paragraph/Paragraph.js";
 import { ProjectCard } from "../ProjectCard/ProjectCard.js";
-import { projects } from "../ProjectsData/ProjectsData"; 
+import { projects } from "../Data/ProjectsData.js"; 
 import "./Projects.css"
 
 export const Projects = () => {
@@ -66,7 +66,7 @@ export const Projects = () => {
         <Row>
           <Col>
             <SubTitulo tamano="grande" text="Projects" id="projects"/>
-            <Parrafo
+            <Paragraph
               text="Here are some of the projects I’ve worked on, grouped by focus.
               Whether you're interested in UI/UX design, fully coded apps, or
               solutions built with no-code tools — This breakdown may help you better 
@@ -104,13 +104,12 @@ export const Projects = () => {
                   boxShadow: "0px 2px 5px rgba(0, 0, 0, 0.1)",
                 }}
               >
-                <Parrafo
+                <Paragraph
                   text={formatTextWithLineBreaks(
                     categoryDescriptions[selectedCategory]
                   )}
                 />
               </div>
-              <TabContent>
                 <TabContent className="pt-3">
                   <Tab.Pane eventKey="first">
                     <Row>
@@ -142,7 +141,6 @@ export const Projects = () => {
                     </Row>
                   </Tab.Pane>
                 </TabContent>
-              </TabContent>
             </TabContainer>
           </Col>
         </Row>

@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
-import { projects } from "../ProjectsData/ProjectsData.js";
-import { Parrafo } from "../Paragraph/Paragraph.js";
+import { projects } from "../Data/ProjectsData.js";
+import { Paragraph } from "../Paragraph/Paragraph.js";
 import { Accordion } from "../Accordion/Accordion.js";
 import { Carrousel } from "../Carrousel/Carrousel.js"
 import { Footer } from "../Footer/Footer.js";
@@ -48,7 +48,7 @@ export const ProjectDetails = () => {
             <li>{project.duration}</li>
             <li>{project.type}</li>
           </ul>
-          <Parrafo text={project.status} />
+          <Paragraph text={project.status} />
         </div>
       </Container>
       <Footer />
