@@ -1,0 +1,23 @@
+.certificates-section {
+  padding: 60px 0;
+  background-color: black;
+}
+
+.certificates {
+  position: static;
+  overflow: hidden;
+}
+
+.certificates-section .row .col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.certificates-container {
+  display: grid;
+  flex-wrap: wrap;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1.5fr));
+  padding: 20px;
+  gap: 30px;
+}

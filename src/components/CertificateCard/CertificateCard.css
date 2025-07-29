@@ -1,0 +1,53 @@
+/* CertificateCard.css */
+.certificate-card {
+  background-color: #1a1a1a;
+  border-radius: 12px;
+  overflow: hidden;
+  padding: 20px;
+  box-shadow: 0 0 9px rgba(255, 255, 255, 0.404);
+  transition: 0.4s ease;
+  z-index: 1;
+}
+
+.certificate-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.877);
+  transition: 0.2s ease;
+}
+
+.certificate-image {
+  width: 100%;
+  height: auto;
+  max-height: 240px;
+  object-fit: contain;
+  border-radius: 8px;
+  
+}
+
+.certificate-info {
+  margin-top: 15px;
+}
+
+.certificate-info h3 {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+  color: #fff;
+}
+
+.certificate-info p {
+  margin: 2px 0;
+  color: #ccc;
+  font-size: 0.9rem;
+}
+
+.certificate-info a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #00bfff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.certificate-info a:hover {
+  text-decoration: underline;
+}
