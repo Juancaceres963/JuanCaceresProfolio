@@ -2,22 +2,32 @@
   padding: 60px 0;
   background-color: black;
 }
-
 .certificates {
   position: static;
   overflow: hidden;
 }
+/* .certificates-container {
+  display: grid;
+  grid-template-columns: 
+  gap: 2rem; 
+  padding: 1rem;
+} */
+.certificates-section .row {
+  display: flex;
+  flex-direction: column;
+} 
 
 .certificates-section .row .col {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 0;
 }
 
 .certificates-container {
   display: grid;
-  flex-wrap: wrap;
+  width: 100%;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1.5fr));
   padding: 20px;
-  gap: 30px;
+  gap: 2rem 1.3rem;
 }

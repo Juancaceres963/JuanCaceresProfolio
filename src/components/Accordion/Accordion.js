@@ -83,12 +83,10 @@ export const Accordion = () => {
           class="accordion-collapse collapse"
           aria-labelledby="panelsStayOpen-headingThree"
         >
-          <div class="accordion-body">
-            <Paragraph text={project.approach} />
-            <Paragraph text={project.challenges} />
-            <Paragraph text={project.learning} />
-            <Paragraph text={project.outcome} />
-            <Paragraph text={project.closingNote} />
+          <div className="accordion-body">
+            {project.caseStudy.split("<br/>").map((paragraph, index) => (
+              <Paragraph key={index} text={paragraph.trim()} />
+            ))}
           </div>
         </div>
       </div>

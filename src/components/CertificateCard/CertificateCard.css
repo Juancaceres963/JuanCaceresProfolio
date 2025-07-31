@@ -1,5 +1,8 @@
 /* CertificateCard.css */
 .certificate-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-color: #1a1a1a;
   border-radius: 12px;
   overflow: hidden;
@@ -7,6 +10,7 @@
   box-shadow: 0 0 9px rgba(255, 255, 255, 0.404);
   transition: 0.4s ease;
   z-index: 1;
+  margin: 0;
 }
 
 .certificate-card:hover {
@@ -21,7 +25,6 @@
   max-height: 240px;
   object-fit: contain;
   border-radius: 8px;
-  
 }
 
 .certificate-info {
