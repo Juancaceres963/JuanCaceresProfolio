@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/JuanCaceresProfolio/static/css/main.21ad041f.css",
-    "main.js": "/JuanCaceresProfolio/static/js/main.7f6c646f.js",
-    "static/js/453.3ddbf2d3.chunk.js": "/JuanCaceresProfolio/static/js/453.3ddbf2d3.chunk.js",
+    "main.css": "/JuanCaceresProfolio/static/css/main.26234829.css",
+    "main.js": "/JuanCaceresProfolio/static/js/main.9c19b47a.js",
+    "static/js/453.014ed64d.chunk.js": "/JuanCaceresProfolio/static/js/453.014ed64d.chunk.js",
     "static/media/banner_bg_opti2.mp4": "/JuanCaceresProfolio/static/media/banner_bg_opti2.796d4b36897ecc5ad667.mp4",
     "static/media/AndreinartisticaCarrousel.png": "/JuanCaceresProfolio/static/media/AndreinartisticaCarrousel.772eb68b702627963c16.png",
     "static/media/AndreinartisticaPortada.png": "/JuanCaceresProfolio/static/media/AndreinartisticaPortada.bd9c759880fdb63cb990.png",
@@ -18,24 +18,31 @@
     "static/media/MotorcycleServicePortada.png": "/JuanCaceresProfolio/static/media/MotorcycleServicePortada.ae5e75e17e7de8a956aa.png",
     "static/media/FutbolProjectCarrousel2.png": "/JuanCaceresProfolio/static/media/FutbolProjectCarrousel2.548310b856785a2bd26d.png",
     "static/media/FotoJuanPortada.png": "/JuanCaceresProfolio/static/media/FotoJuanPortada.e5e65f52e78c2f65d91c.png",
+    "static/media/V8-Platzi.png": "/JuanCaceresProfolio/static/media/V8-Platzi.d9316b2d9dc79cae2f56.png",
     "static/media/SCLogo.png": "/JuanCaceresProfolio/static/media/SCLogo.06eb54fac394dbc37693.png",
     "static/media/PortafolioJuanPortadaLogo.png": "/JuanCaceresProfolio/static/media/PortafolioJuanPortadaLogo.ac650df48cfa34fe3ff7.png",
     "static/media/CentraNo2-Bold.ttf": "/JuanCaceresProfolio/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/JuanCaceresProfolio/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/CentraNo2-Book.ttf": "/JuanCaceresProfolio/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
     "static/media/AppSalesManagmentCarrousel.png": "/JuanCaceresProfolio/static/media/AppSalesManagmentCarrousel.a3e473c44424f3225d32.png",
+    "static/media/Básico-de-Javascript.jpg": "/JuanCaceresProfolio/static/media/Básico-de-Javascript.cefc756ab3e16da6b986.jpg",
+    "static/media/Css-Grid-Flexbox.jpg": "/JuanCaceresProfolio/static/media/Css-Grid-Flexbox.386f22805115bb0cf3b4.jpg",
     "static/media/MotorcycleServiceLogo.png": "/JuanCaceresProfolio/static/media/MotorcycleServiceLogo.84f3bb9858e9d2763efb.png",
+    "static/media/CSS-Grid-Básico.jpg": "/JuanCaceresProfolio/static/media/CSS-Grid-Básico.33ae1e296f5b725d3379.jpg",
     "static/media/Logo_JCcode.png": "/JuanCaceresProfolio/static/media/Logo_JCcode.ea43543db0daea1006b6.png",
+    "static/media/Certificate-of-Responsive-Web-Design-FCC.png": "/JuanCaceresProfolio/static/media/Certificate-of-Responsive-Web-Design-FCC.fb5af63fe1ebed5d334b.png",
+    "static/media/Javascript-algorithms-and-data-structures FCC.org.png": "/JuanCaceresProfolio/static/media/Javascript-algorithms-and-data-structures FCC.org.696e3b1fbc7ad137fc45.png",
+    "static/media/Azure-Fundamentals.jpg": "/JuanCaceresProfolio/static/media/Azure-Fundamentals.79a672549f8ab6100b46.jpg",
     "static/media/nav-icon2.png": "/JuanCaceresProfolio/static/media/nav-icon2.85827cb7d77ccbb81204.png",
     "static/media/nav-icon3.svg": "/JuanCaceresProfolio/static/media/nav-icon3.08b285abb8e118b52637efa5d65c5367.svg",
     "index.html": "/JuanCaceresProfolio/index.html",
     "static/media/nav-icon1.svg": "/JuanCaceresProfolio/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
-    "main.21ad041f.css.map": "/JuanCaceresProfolio/static/css/main.21ad041f.css.map",
-    "main.7f6c646f.js.map": "/JuanCaceresProfolio/static/js/main.7f6c646f.js.map",
-    "453.3ddbf2d3.chunk.js.map": "/JuanCaceresProfolio/static/js/453.3ddbf2d3.chunk.js.map"
+    "main.26234829.css.map": "/JuanCaceresProfolio/static/css/main.26234829.css.map",
+    "main.9c19b47a.js.map": "/JuanCaceresProfolio/static/js/main.9c19b47a.js.map",
+    "453.014ed64d.chunk.js.map": "/JuanCaceresProfolio/static/js/453.014ed64d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.21ad041f.css",
-    "static/js/main.7f6c646f.js"
+    "static/css/main.26234829.css",
+    "static/js/main.9c19b47a.js"
   ]
 }
