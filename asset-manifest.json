@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/JuanCaceresProfolio/static/css/main.26234829.css",
-    "main.js": "/JuanCaceresProfolio/static/js/main.9c19b47a.js",
+    "main.js": "/JuanCaceresProfolio/static/js/main.229a6ba9.js",
     "static/js/453.014ed64d.chunk.js": "/JuanCaceresProfolio/static/js/453.014ed64d.chunk.js",
     "static/media/banner_bg_opti2.mp4": "/JuanCaceresProfolio/static/media/banner_bg_opti2.796d4b36897ecc5ad667.mp4",
     "static/media/AndreinartisticaCarrousel.png": "/JuanCaceresProfolio/static/media/AndreinartisticaCarrousel.772eb68b702627963c16.png",
@@ -38,11 +38,11 @@
     "index.html": "/JuanCaceresProfolio/index.html",
     "static/media/nav-icon1.svg": "/JuanCaceresProfolio/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "main.26234829.css.map": "/JuanCaceresProfolio/static/css/main.26234829.css.map",
-    "main.9c19b47a.js.map": "/JuanCaceresProfolio/static/js/main.9c19b47a.js.map",
+    "main.229a6ba9.js.map": "/JuanCaceresProfolio/static/js/main.229a6ba9.js.map",
     "453.014ed64d.chunk.js.map": "/JuanCaceresProfolio/static/js/453.014ed64d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.26234829.css",
-    "static/js/main.9c19b47a.js"
+    "static/js/main.229a6ba9.js"
   ]
 }
