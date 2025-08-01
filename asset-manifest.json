@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/JuanCaceresPortfolio/static/css/main.cabd4aca.css",
-    "main.js": "/JuanCaceresPortfolio/static/js/main.d213bf5f.js",
+    "main.js": "/JuanCaceresPortfolio/static/js/main.c378d4dd.js",
     "static/js/453.ee5f212c.chunk.js": "/JuanCaceresPortfolio/static/js/453.ee5f212c.chunk.js",
     "static/media/banner_bg_opti2.mp4": "/JuanCaceresPortfolio/static/media/banner_bg_opti2.796d4b36897ecc5ad667.mp4",
     "static/media/AndreinartisticaCarrousel.png": "/JuanCaceresPortfolio/static/media/AndreinartisticaCarrousel.772eb68b702627963c16.png",
@@ -38,11 +38,11 @@
     "index.html": "/JuanCaceresPortfolio/index.html",
     "static/media/nav-icon1.svg": "/JuanCaceresPortfolio/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "main.cabd4aca.css.map": "/JuanCaceresPortfolio/static/css/main.cabd4aca.css.map",
-    "main.d213bf5f.js.map": "/JuanCaceresPortfolio/static/js/main.d213bf5f.js.map",
+    "main.c378d4dd.js.map": "/JuanCaceresPortfolio/static/js/main.c378d4dd.js.map",
     "453.ee5f212c.chunk.js.map": "/JuanCaceresPortfolio/static/js/453.ee5f212c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cabd4aca.css",
-    "static/js/main.d213bf5f.js"
+    "static/js/main.c378d4dd.js"
   ]
 }
