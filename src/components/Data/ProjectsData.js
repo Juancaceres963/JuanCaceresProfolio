@@ -20,35 +20,6 @@ export const projects = [
   {
     id: "1",
     category: ["first", "second"],
-    title: "Personal Web Portfolio",
-    subtitle:
-      "A fully custom personal website designed and developed to showcase my work, services, and identity as a full-stack developer, UI/UX designer, and digital problem-solver.",
-    tags: ["React", "Bootstrap", "UI/UX", "Frontend", "In Progress"],
-    mainImage: projImg10,
-    problem:
-      "I needed a platform that truly reflected my skills, my personality, and the kind of work I aspire to do — something more expressive than a résumé and more dynamic than a template-based website. A space where the only boundaries are my creativity and my ability to bring ideas to life. My goal was to create a site that not only showcases projects, but also tells a story about who I am and where I’m headed as a developer and designer.",
-    role: "Full ownership of the project: I designed the layout and visuals using Canva, wrote all the code for both structure and interactivity, and managed content integration. I also implemented external services such as Mailchimp for contact and created a modular project structure for scalability.",
-    caseStudy: "The website was developed component by component, with a strong focus on responsiveness, visual clarity, and user experience. Interactive elements such as dynamic typing effects, paragraph-revealing shadows, and hover animations on cards and images were implemented to enhance engagement. Projects are structured as data objects and routed dynamically to detailed pages using React Router, while the contact form is integrated via Mailchimp.<br/>The projects section features custom-styled Bootstrap components, including accordions and a carousel, all designed to maintain a clean and intuitive interface. Special attention was given to cross-device design consistency, background video optimization, and avoiding generic templates—resulting in a modular and handcrafted experience that evolved through continuous iteration.<br/>Beyond showcasing my services, this portfolio represents a personal and professional milestone. It has been a space for creativity, learning, and refining my identity as a developer. It reflects not only my current skills but also my potential and passion for building purposeful digital solutions.<br/>This project is not just a display of my work—it's part of the work itself. It taught me how to present ideas more effectively, communicate value, and build something that evolves with me as I grow in the tech world.",
-    tools: [
-      "React",
-      "Bootstrap",
-      "React Router",
-      "JavaScript",
-      "HTML/CSS",
-      "Canva",
-      "Mailchimp",
-    ],
-    duration: "July 2024 — Present",
-    type: "Personal / Professional Branding",
-    images: [projImg7, projImg8, projImg9],
-    status: "In Development — Publicly Live",
-    githubRepo: "https://github.com/Juancaceres963/JuanCaceresPortfolio",
-    //post: "",
-    pdf: "",
-  },
-  {
-    id: "2",
-    category: ["first", "second"],
     title: "Desktop App for Sales and Customer Management",
     subtitle:
       "Desktop application developed as a technical challenge for a developer position, focused on managing customers, products, and business sales.",
@@ -78,7 +49,7 @@ export const projects = [
     pdf: "",
   },
   {
-    id: "3",
+    id: "2",
     category: ["first", "third"],
     title: "Motorcycle Workshop Management System App",
     subtitle:
@@ -140,7 +111,7 @@ export const projects = [
   //   pdf: "",
   // },
   {
-    id: "5",
+    id: "3",
     category: ["third"],
     title: "Management & Tracking App for Women’s Soccer Team",
     subtitle:
@@ -160,7 +131,7 @@ export const projects = [
     pdf: "",
   },
   {
-    id: "6",
+    id: "4",
     category: ["third"],
     title: "Financial & Operational Tracker for Food Business",
     subtitle:
@@ -177,6 +148,35 @@ export const projects = [
     images: [projImg17, projImg16],
     status: "Discontinued",
     //githubRepo: "",
+    //post: "",
+    pdf: "",
+  },
+  {
+    id: "5",
+    category: ["first", "second"],
+    title: "Personal Web Portfolio",
+    subtitle:
+      "A fully custom personal website designed and developed to showcase my work, services, and identity as a full-stack developer, UI/UX designer, and digital problem-solver.",
+    tags: ["React", "Bootstrap", "UI/UX", "Frontend", "In Progress"],
+    mainImage: projImg10,
+    problem:
+      "I needed a platform that truly reflected my skills, my personality, and the kind of work I aspire to do — something more expressive than a résumé and more dynamic than a template-based website. A space where the only boundaries are my creativity and my ability to bring ideas to life. My goal was to create a site that not only showcases projects, but also tells a story about who I am and where I’m headed as a developer and designer.",
+    role: "Full ownership of the project: I designed the layout and visuals using Canva, wrote all the code for both structure and interactivity, and managed content integration. I also implemented external services such as Mailchimp for contact and created a modular project structure for scalability.",
+    caseStudy: "The website was developed component by component, with a strong focus on responsiveness, visual clarity, and user experience. Interactive elements such as dynamic typing effects, paragraph-revealing shadows, and hover animations on cards and images were implemented to enhance engagement. Projects are structured as data objects and routed dynamically to detailed pages using React Router, while the contact form is integrated via Mailchimp.<br/>The projects section features custom-styled Bootstrap components, including accordions and a carousel, all designed to maintain a clean and intuitive interface. Special attention was given to cross-device design consistency, background video optimization, and avoiding generic templates—resulting in a modular and handcrafted experience that evolved through continuous iteration.<br/>Beyond showcasing my services, this portfolio represents a personal and professional milestone. It has been a space for creativity, learning, and refining my identity as a developer. It reflects not only my current skills but also my potential and passion for building purposeful digital solutions.<br/>This project is not just a display of my work—it's part of the work itself. It taught me how to present ideas more effectively, communicate value, and build something that evolves with me as I grow in the tech world.",
+    tools: [
+      "React",
+      "Bootstrap",
+      "React Router",
+      "JavaScript",
+      "HTML/CSS",
+      "Canva",
+      "Mailchimp",
+    ],
+    duration: "July 2024 — Present",
+    type: "Personal / Professional Branding",
+    images: [projImg7, projImg8, projImg9],
+    status: "In Development — Publicly Live",
+    githubRepo: "https://github.com/Juancaceres963/JuanCaceresPortfolio",
     //post: "",
     pdf: "",
   },
