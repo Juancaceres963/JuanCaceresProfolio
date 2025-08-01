@@ -29,9 +29,9 @@ function App() {
 
   useEffect(() => {
     // Eliminar el hash de la URL cuando cargamos desde un ancla
-    if (location.pathname === "/JuanCaceresProfolio" && location.hash) {
+    if (location.pathname === "/JuanCaceresPortfolio" && location.hash) {
       setTimeout(() => {
-        window.history.replaceState(null, "", "/JuanCaceresProfolio");
+        window.history.replaceState(null, "", "/JuanCaceresPortfolio");
       }, 10);
     }
   }, [location]);

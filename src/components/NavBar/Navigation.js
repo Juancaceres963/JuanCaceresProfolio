@@ -74,7 +74,7 @@ export const Navigation = () => {
             } else if (hasHash) {
               // Usamos la API nativa para limpiar el hash sin recargar
               setTimeout(() => {
-                window.history.replaceState(null, "", "/JuanCaceresProfolio");
+                window.history.replaceState(null, "", "/JuanCaceresPortfolio");
                 window.scrollTo({ top: 0, behavior: "smooth" });
               }, 0);
             } else {

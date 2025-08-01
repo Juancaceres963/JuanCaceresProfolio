@@ -69,7 +69,7 @@ export const Banner = () => {
                     </Col>
                     <Col xs={12} md={6} xl={7} className="banner-col-text">
                       <span style={{ color: "#fff" }} className="tagline">
-                        Welcome to my Profolio
+                        Welcome to my Portfolio
                       </span>
                       <div>
                         <h1 className="container_banner_h1">
@@ -152,7 +152,7 @@ export const Banner = () => {
           </Col>
           <Col xs={12} md={6} xl={7} className="banner-col-text">
             <span style={{ color: "#fff" }} className="tagline">
-              Welcome to my Profolio
+              Welcome to my Portfolio
             </span>
             <div>
               <h1 className="container_banner_h1">

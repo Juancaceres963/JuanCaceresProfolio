@@ -42,7 +42,7 @@ export const projects = [
     type: "Personal / Professional Branding",
     images: [projImg7, projImg8, projImg9],
     status: "In Development — Publicly Live",
-    githubRepo: "https://github.com/Juancaceres963/JuanCaceresProfolio",
+    githubRepo: "https://github.com/Juancaceres963/JuanCaceresPortfolio",
     //post: "",
     pdf: "",
   },
