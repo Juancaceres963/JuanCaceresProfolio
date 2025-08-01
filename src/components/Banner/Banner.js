@@ -14,7 +14,7 @@ export const Banner = () => {
     "Digital Product Builder",
   ];
   const [text, setText] = useState("");
-  const [delta, setDelta] = useState(300 - Math.random() * 100);
+  const [delta, setDelta] = useState(120 - Math.random() * 20);
   const period = 2000;
   const isTablet = useIsTablet();
 
@@ -37,7 +37,7 @@ export const Banner = () => {
     setText(updatedText);
 
     if (isDeleting) {
-      setDelta((prevDelta) => prevDelta / 2);
+      setDelta((prevDelta) => prevDelta / 1.9);
     }
 
     if (!isDeleting && updatedText === fullText) {
@@ -46,7 +46,7 @@ export const Banner = () => {
     } else if (isDeleting && updatedText === "") {
       setIsDeleting(false);
       setLoopNum(loopNum + 1);
-      setDelta(500);
+      setDelta(80);
     }
   };
 

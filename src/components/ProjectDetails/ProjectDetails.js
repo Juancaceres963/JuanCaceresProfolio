@@ -30,7 +30,7 @@ export const ProjectDetails = () => {
               Repo GitHub
             </a>
             <a href={project.post} target="_blank">
-              Post VideoDemo
+              Watch Demo
             </a>
           </div>
           <ul>
